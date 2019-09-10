@@ -1,0 +1,7 @@
+{
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "tabs": "/components/tabs/tabsec",
+    "loading": "/components/loading/loading"
+  }
+}

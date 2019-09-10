@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "社区",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "tabs": "/components/tabs/tabs"
+  }
+}

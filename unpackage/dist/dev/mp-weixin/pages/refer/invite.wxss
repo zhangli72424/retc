@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/*主题色     2a7af2       #1aafaf*/
+/*字体颜色*/
+/*列表下边框颜色*/
+/*列表右箭头*/
+/*按钮颜色*/
+/*语言背景颜色*/
+/*红色点缀*/
+/*状态栏高度*/
+/*页面浅灰色背景*/
+/*首页浅绿颜色    dae9ff      #95e9d6*/
+/*状态背景*/
+.app-invite .gg-status-bar {
+  background-color: transparent;
+}
+.app-invite .gg-top {
+  background-color: transparent;
+}
+.app-invite .gg-top view {
+    color: #ffffff;
+}
+.app-invite .gg-top view.iconfont {
+      color: #ffffff;
+}
+.app-invite .gg-page {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.app-invite .gg-page image {
+    width: 100%;
+    height: 100%;
+}
+.app-invite .gg-page .gold-coin {
+    width: 714rpx;
+    height: 930rpx;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 150rpx;
+}
+.app-invite .gg-page .start-plan-txt {
+    z-index: 11;
+    position: absolute;
+    left: 50%;
+    top: 222rpx;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    font-size: 20px;
+    color: #ffffff;
+}
+.app-invite .gg-page .gg-content2 {
+    width: 558rpx;
+    height: 760rpx;
+    position: absolute;
+    z-index: 11;
+    left: 50%;
+    margin-left: -279rpx;
+    top: 294rpx;
+}
+.app-invite .gg-page .gg-content2 .btns-wrapper {
+      position: absolute;
+      left: 0;
+      bottom: 60rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-align-content: center;
+          -ms-flex-line-pack: center;
+              align-content: center;
+      width: 558rpx;
+}
+.app-invite .gg-page .gg-content2 .btns-wrapper .save-btn {
+        width: 308rpx;
+        height: 90rpx;
+        background: -webkit-gradient(linear, left top, right top, from(#7BF6C6), to(#4FC295));
+        background: -o-linear-gradient(left, #7BF6C6, #4FC295);
+        background: linear-gradient(to right, #7BF6C6, #4FC295);
+        border-radius: 90rpx;
+        text-align: center;
+        line-height: 90rpx;
+        color: #ffffff;
+        font-size: 21px;
+}
+.app-invite .gg-page .gg-content {
+    width: 558rpx;
+    height: 760rpx;
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    margin-left: -279rpx;
+    top: 294rpx;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.app-invite .gg-page .gg-content view {
+      text-align: center;
+      line-height: 1;
+}
+.app-invite .gg-page .gg-content .invite-text {
+      font-size: 15px;
+      color: #080923;
+      margin-top: 60rpx;
+}
+.app-invite .gg-page .gg-content .invite-code {
+      font-size: 30px;
+      color: #1aafaf;
+      font-weight: bold;
+      margin-top: 20rpx;
+}
+.app-invite .gg-page .gg-content .qr {
+      margin: 60rpx auto 0;
+      width: 240rpx;
+      height: 240rpx;
+}
+.app-invite .gg-page .gg-content .qr image {
+        width: 100%;
+        height: 100%;
+}
+.app-invite .gg-page .gg-content .site {
+      color: #3D3D3D;
+      font-size: 10px;
+      max-width: 70%;
+      margin: 60rpx auto 0;
+      word-break: break-all;
+}
+

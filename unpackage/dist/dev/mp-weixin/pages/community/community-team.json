@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "团队",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "mix-tree": "/components/mix-tree/mix-tree"
+  }
+}

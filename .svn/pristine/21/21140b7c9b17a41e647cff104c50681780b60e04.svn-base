@@ -1,0 +1,377 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "black"
+			}
+		}
+		,{
+		    "path" : "pages/start/start",
+		    "style" : {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},{
+		    "path" : "pages/mine/mine",
+		    "style" : {
+				"navigationBarTitleText": "个人中心",
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "white"
+			}
+		}
+		,{
+		    "path" : "pages/community/community-team",
+		    "style" : {
+				"navigationBarTitleText": "团队",
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "black"
+			}
+		}
+		,{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "钱包",
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "white"
+			}
+		}
+		,{
+		    "path" : "pages/withdraw/log",
+		    "style" : {
+				"navigationBarTitleText": "转出详情",
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "black"
+			}
+		}
+		,{
+		    "path" : "pages/withdraw/history",
+		    "style" : {
+				"navigationBarTitleText": "转出历史",
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "black"
+			}
+		}
+		,{
+		    "path" : "pages/withdraw/withdraw",
+		    "style" : {
+				"navigationBarTitleText": "转出",
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "black"
+			}
+		}
+		,{
+            "path" : "pages/service/service",
+            "style": {
+            	"navigationBarTitleText": "在线客服",
+            	// "app-plus": {
+            	// 	"titleNView": false
+            	// },
+            	"navigationBarTextStyle": "black"
+            }
+        }
+        ,{
+		    "path" : "pages/withdraw/address",
+		    "style" : {
+				"navigationBarTitleText": "添加地址",
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "black"
+			}
+		}
+		,{
+		    "path" : "pages/withdraw/modify-address",
+		    "style" : {
+				"navigationBarTitleText": "提币地址",
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "black"
+			}
+		}
+		,{
+		    "path" : "pages/charge/charge",
+		    "style" : {
+				"navigationBarTitleText": "转入",
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "black"
+			}
+		}
+		,{
+		    "path" : "pages/community/community",
+		    "style" : {
+				"navigationBarTitleText": "社区",
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+		    "path" : "pages/community/bullentin",
+		    "style" : {
+				"navigationBarTitleText": "公告",
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "black"
+			}
+		},{
+		    "path" : "pages/fund/fund",
+		    "style" : {
+				"navigationBarTitleText": "投资",
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "black"
+			}
+		},{
+		    "path" : "pages/fund/recording",
+		    "style" : {
+				"navigationBarTitleText": "我的基金",
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "black"
+			}
+		},{
+		    "path" : "pages/fund/fund-buy",
+		    "style" : {
+				"navigationBarTitleText": "投资",
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "black"
+			}
+		}
+		,{
+		    "path" : "pages/gesture-password/gesture-password",
+		    "style" : {
+				"navigationBarTitleText": "验证手势密码",
+				"titleNView": false
+			}
+		}
+		,{
+		    "path" : "pages/gesture-password/set-gesture-password",
+		    "style" : {
+				"navigationBarTitleText": "设置手势密码",
+				"titleNView": false
+			}
+		}
+		,{
+		    "path" : "pages/area/area",
+		    "style": {
+		    	"navigationBarTitleText": "国家地区",
+		    	"app-plus": {
+		    		"titleNView": false
+		    	},
+		    	"navigationBarTextStyle": "black"
+		    }
+		}
+		,{
+		    "path" : "pages/register/register",
+		    "style" : {
+				"navigationBarTitleText": "注册",
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "black"
+			}
+		}
+		,{
+		    "path" : "pages/safe/modify-login",
+		    "style" : {
+				"navigationBarTitleText": "修改登录密码",
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "black"
+			}
+		}
+		,{
+		    "path" : "pages/safe/modify-pwd",
+		    "style" : {
+				"navigationBarTitleText": "修改交易密码",
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "black"
+			}
+		}
+		,{
+		    "path" : "pages/setting/setting",
+		    "style" : {
+				"navigationBarTitleText": "系统设置",
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "black"
+			}
+		}
+		,{
+		    "path" : "pages/safe/safe",
+		    "style" : {
+				"navigationBarTitleText": "安全中心",
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "black"
+			}
+		}
+		,{
+		    "path" : "pages/forget/forget",
+		    "style" : {
+				"navigationBarTitleText": "忘记密码",
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "black"
+			}
+		}
+		,{
+		    "path" : "pages/information/information",
+		    "style" : {
+				"navigationBarTitleText": "个人资料",
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "black"
+			}
+		}
+		,{
+			"path": "pages/refer/invite",
+			"style": {
+				"navigationBarTitleText": "邀请好友",
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "black"
+			}
+		},{
+		    "path" : "pages/refer/refer",
+		    "style" : {
+				"navigationBarTitleText": "我的邀请码",
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "black"
+			}
+		}
+        ,{
+            "path" : "pages/charge/history",
+            "style" : {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+        } ,{
+            "path" : "pages/charge/log",
+            "style" : {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+        }
+        ,{
+			"path": "pages/bill/bill",
+			"style": {
+				"navigationBarTitleText": "我的账单",
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "white"
+			}
+		}
+        ,{
+            "path" : "pages/notice/notice",
+            "style" : {
+            	"navigationBarTitleText": "团队",
+            	"app-plus": {
+            		"titleNView": false
+            	},
+            	"navigationBarTextStyle": "black"
+            }
+        },{
+            "path" : "pages/notice/protocol",
+            "style" : {
+            	"navigationBarTitleText": "服务协议",
+            	"app-plus": {
+            		"titleNView": false
+            	},
+            	"navigationBarTextStyle": "black"
+            }
+        }
+        ,{
+            "path" : "pages/exchange/exchange",
+            "style" : {
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "white"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7D7D7D",
+		"selectedColor": "#000000",
+		"backgroundColor": "#F9F9F9",
+		"borderStyle": "white",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "钱包",
+				"iconPath": "static/tabbar/tabbar01.png",
+				"selectedIconPath": "static/tabbar/tabbar05.png"
+			},
+			// {
+			// 	"pagePath": "pages/fund/fund",
+			// 	"text": "投资",
+			// 	"iconPath": "static/tabbar/tabbar02.png",
+			// 	"selectedIconPath": "static/tabbar/tabbar06.png"
+			// },
+			{
+				"pagePath": "pages/community/community",
+				"text": "社区",
+				"iconPath": "static/tabbar/tabbar03.png",
+				"selectedIconPath": "static/tabbar/tabbar07.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "static/tabbar/tabbar04.png",
+				"selectedIconPath": "static/tabbar/tabbar08.png"
+			}
+		]
+	}
+	// ,"condition": {
+	// 	"list": [{
+	// 			"path": "pages/mine/mine"
+	// 		}
+	// 	]
+	// }
+}

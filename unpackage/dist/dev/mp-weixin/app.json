@@ -1,0 +1,73 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/start/start",
+    "pages/mine/mine",
+    "pages/community/community-team",
+    "pages/index/index",
+    "pages/withdraw/log",
+    "pages/withdraw/history",
+    "pages/withdraw/withdraw",
+    "pages/service/service",
+    "pages/withdraw/address",
+    "pages/withdraw/modify-address",
+    "pages/charge/charge",
+    "pages/community/community",
+    "pages/community/bullentin",
+    "pages/fund/fund",
+    "pages/fund/recording",
+    "pages/fund/fund-buy",
+    "pages/gesture-password/gesture-password",
+    "pages/gesture-password/set-gesture-password",
+    "pages/area/area",
+    "pages/register/register",
+    "pages/safe/modify-login",
+    "pages/safe/modify-pwd",
+    "pages/setting/setting",
+    "pages/safe/safe",
+    "pages/forget/forget",
+    "pages/information/information",
+    "pages/refer/invite",
+    "pages/refer/refer",
+    "pages/charge/history",
+    "pages/charge/log",
+    "pages/bill/bill",
+    "pages/notice/notice",
+    "pages/notice/protocol",
+    "pages/exchange/exchange"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7D7D7D",
+    "selectedColor": "#000000",
+    "backgroundColor": "#F9F9F9",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "钱包",
+        "iconPath": "static/tabbar/tabbar01.png",
+        "selectedIconPath": "static/tabbar/tabbar05.png"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "社区",
+        "iconPath": "static/tabbar/tabbar03.png",
+        "selectedIconPath": "static/tabbar/tabbar07.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/tabbar/tabbar04.png",
+        "selectedIconPath": "static/tabbar/tabbar08.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

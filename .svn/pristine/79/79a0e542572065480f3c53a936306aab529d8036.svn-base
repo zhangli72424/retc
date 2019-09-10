@@ -1,0 +1,34 @@
+/*主题色     2a7af2       #1aafaf*/  
+$theme-color: #1aafaf;
+/*字体颜色*/
+$font-common-color: #323232;
+$font-title-color: #2a2a2a;
+$font-list-tip-color: #929292;
+/*列表下边框颜色*/
+$list-border-bt-color: #e2e2e2;
+/*列表右箭头*/
+$list-arrow-rt-color: #4E4E4E;
+/*按钮颜色*/
+$btn-bg-color: #acacac;
+/*语言背景颜色*/
+$btn-lang-bg-color: #E5E5E5;
+$lang-color: #767575;
+/*红色点缀*/
+$red-adorn: #FF242F;
+$green-adorn: #1aafaf;
+
+/*状态栏高度*/
+$status-height: 37px;
+$gg-top-height: 30px;
+$gg-top-bottom: 10px;
+$gg-top-total-height: 77px;
+$gg-top-fixed-height: 78px;
+
+/*页面浅灰色背景*/
+$page_gray_color: #f6f6f6;
+
+/*首页浅绿颜色    dae9ff      #95e9d6*/ 
+$index-green-color: #95e9d6;
+
+/*状态背景*/
+$state-bg-color: #1b1b1b;

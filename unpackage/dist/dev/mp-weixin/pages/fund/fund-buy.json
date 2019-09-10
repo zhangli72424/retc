@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "投资",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "loading": "/components/loading/loading"
+  }
+}

@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/*主题色     2a7af2       #1aafaf*/
+/*字体颜色*/
+/*列表下边框颜色*/
+/*列表右箭头*/
+/*按钮颜色*/
+/*语言背景颜色*/
+/*红色点缀*/
+/*状态栏高度*/
+/*页面浅灰色背景*/
+/*首页浅绿颜色    dae9ff      #95e9d6*/
+/*状态背景*/
+.app-register .content .avatar {
+  width: 120rpx;
+  height: 120rpx;
+  margin: 60rpx auto 30rpx;
+}
+.app-register .content .avatar image {
+    width: 100%;
+    height: 100%;
+}
+.app-register .content .list {
+  padding: 0 30rpx;
+}
+.app-register .content .list .item {
+    border-top: 1rpx solid #e2e2e2;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100rpx;
+}
+.app-register .content .list .item view {
+      color: #2a2a2a;
+      font-size: 14px;
+}
+.app-register .content .list .item view.right {
+        font-weight: bold;
+        padding: 10px;
+        margin: -10px;
+}
+.app-register .content .list .item input {
+      font-size: 14px;
+}
+.app-register .content .list .item input.right {
+        width: 50%;
+}
+.app-register .content .list .item:last-child {
+      border-bottom: 1rpx solid #e2e2e2;
+}
+.app-register .save {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100rpx;
+  line-height: 100rpx;
+  background-color: #acacac;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+}
+.app-register .save.active {
+    background-color: #1aafaf;
+}
+

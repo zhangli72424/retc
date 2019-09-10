@@ -1,0 +1,112 @@
+@import './variable.scss';
+page {
+	color: $font-common-color;
+}
+view, text {
+	line-height: 1;
+	box-sizing: border-box;
+}
+.gg-status-bar {
+		height: $status-height;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 1000;
+	}
+	.gg-top {
+		display: flex;
+		padding: 0 30upx;
+		position: fixed;
+		top: $status-height;
+		left: 0;
+		right: 0;
+		z-index: 1000;
+		background-color: #ffffff;
+		padding-bottom: $gg-top-bottom;
+		height: $gg-top-height;
+		color: $font-title-color;
+		.add-new {
+			flex: 1;
+			text-align: right;
+			font-size: 12px;
+			padding: 10px 0;
+			margin: -10px 0;
+		}
+		.iconfont+view {
+			padding-left: 20upx;
+		}
+		&.between {
+			flex-direction: row;
+			justify-content: space-between;
+			view {
+				font-size: 21px;
+				line-height: $gg-top-height;
+				color: $font-title-color;
+				&.iconfont {
+					padding: 0 40upx;
+					margin-right: -40upx;
+					font-size: 18px;
+					line-height: 18px;
+					margin-top: 6px;
+					color: $font-title-color;
+				}
+			}
+		}
+		&.triple {
+			flex-direction: row;
+			justify-content: space-between;
+			view {
+				font-size: 21px;
+				line-height: $gg-top-height;
+				color: $font-title-color;
+				&.iconfont {
+					font-size: 18px;
+					line-height: 18px;
+					margin-top: 6px;
+					color: $font-title-color;
+					padding: 10px;
+					margin: -4px -10px -10px;
+				}
+			}
+			.hide {
+				visibility: hidden;
+			}
+		}
+	}
+	.gg-height {
+		height: $gg-top-total-height;
+	}
+	.gg-line{
+		// border-top: 1upx solid $list-border-color;
+		position: fixed;
+		left: 0;
+		top: $gg-top-total-height;
+		right: 0;
+		height: 1px;
+		z-index: 10;
+	}
+	.loading-wrapper {
+		position: relative;
+		height: 50px;
+	}
+/*按钮 hover-class*/
+.hover-class {
+	transform: scale(.9);
+	opacity: .9;
+}
+.fixed-hove-class {
+	opacity: .8;
+}
+.list-hover {
+	background-color: rgba(220, 220, 220, .3);
+}
+
+.nodata {
+	width: 750upx;
+	height: 100upx;
+	line-height: 100upx;
+	text-align: center;
+	color: $font-list-tip-color;
+	font-size: 13px;
+}

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "tki-qrcode": "/components/qrcode/qrcode"
+  }
+}

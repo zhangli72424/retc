@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "注册",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "yzm": "/components/yzm/yzm",
+    "tabs": "/components/tabs/tabs"
+  }
+}

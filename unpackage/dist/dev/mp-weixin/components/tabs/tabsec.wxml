@@ -1,0 +1,1 @@
+<block wx:if="{{tabs.length>0}}"><view class="app-tabs"><block wx:for="{{tabs}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['handleClick',[index]]]]]}}" class="{{[(activeIdx==index)?'active':'']}}" style="{{'font-size:'+(item.fontSize+'px')+';'}}" bindtap="__e">{{''+item.name+''}}</view></block></view></block>

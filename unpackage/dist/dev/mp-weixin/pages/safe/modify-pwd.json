@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "修改交易密码",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "yzm": "/components/yzm/yzm",
+    "loading": "/components/loading/loading"
+  }
+}

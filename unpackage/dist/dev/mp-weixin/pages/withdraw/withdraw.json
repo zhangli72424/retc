@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "转出",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "yzm": "/components/yzm/yzm"
+  }
+}
